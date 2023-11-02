@@ -1,12 +1,19 @@
-span {
+
+#titulo{
+    color: #3c87ef
+    ;
+}
+
+#textoAMaquina {
     display: block;
     font-family: monospace;
     white-space: nowrap;
     border-right: 4px solid;
-    width: 12ch;
+    width: 97ch;
     overflow: hidden;
+    color: #e60070;
 
-    animation: typing 2s steps(12), blink .5s infinite step-end alternate;
+    animation: typing 8s steps(97), blink .5s infinite step-end alternate;
 }
 
 @keyframes typing {
@@ -16,3 +23,9 @@ span {
 @keyframes blink {
     50% {border-color: transparent;}
 }
+
+
+
+  
+ 
+  
